@@ -1,0 +1,244 @@
+/*** Add your styles here **/
+* {
+    font-family: 'lato', sans-serif;
+}
+
+h2 {
+    font-size: 3rem;
+}
+
+/** Sociales **/
+.sociales ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.sociales ul li {
+
+    display: inline-block;
+}
+
+.sociales ul li a::before {
+    font-family: 'FontAwesome';
+    display: inline-block;
+    vertical-align: top;
+    padding: 0.4rem;
+    content: '\f08e';
+    -webkit-font-smoothing: antialiased;
+    font-size: 1.5rem;
+    /*color: #e082a8;*/
+    color: whitesmoke;
+}
+
+.sociales ul li a[href*="facebook.com"]::before {
+    content: '\f230';
+}
+
+.sociales ul li a[href*="twitter.com"]::before {
+    content: '\f081';
+}
+
+.sociales ul li a[href*="instagram.com"]::before {
+    content: '\f16d';
+}
+
+.sociales ul li a[href*="pinterest.com"]::before {
+    content: '\f0d2';
+}
+
+.sociales ul li a[href*="youtube.com"]::before {
+    content: '\f16a';
+}
+
+.topbar {
+    background-color: rgb(29, 155, 102);
+
+}
+
+
+.carousel-container {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+    -webkit-justify-content: left;
+    -ms-flex-pack: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    -webkit-align-items: center;
+    -ms-flex-align: center;
+    align-items: center;
+    position: absolute;
+    bottom: 0;
+    top: 0;
+    left: 0;
+    right: 0;
+}
+
+.carousel-content {
+    text-align: center;
+}
+
+
+.carousel-content h2 {
+    font-size: 1.8rem;
+}
+
+.carousel-content p {
+    font-size: 0.8rem;
+}
+
+.navbar-brand {
+    font-size: 1.8rem;
+    font-weight: 400;
+}
+
+.navbar-brand span {
+    font-weight: 900;
+}
+
+@media(min-width:1000px) {
+
+    .carousel-content h2 {
+        font-size: 3.5rem;
+    }
+
+    .carousel-content p {
+        font-size: 1.5rem;
+    }
+
+    .barra.bg-dark {
+        background-color: transparent !important;
+    }
+
+    .header {
+        position: relative;
+    }
+
+    .header .barra {
+        position: absolute;
+        z-index: 100;
+        width: 100%;
+    }
+}
+
+/*calltoaction*/
+
+.calltoaction {
+    background-color: rgb(18, 107, 70);
+    color: white;
+}
+
+.calltoaction h3 {
+    font-size: 3rem;
+}
+
+.calltoaction .btn-outline-primary {
+    color: white;
+
+    border-color: white;
+
+    padding: 1rem 5rem;
+
+}
+
+.calltoaction .btn-outline-primary:hover {
+    background-color: white;
+    border-color: rgb(18, 107, 70);
+    color: rgb(18, 107, 70);
+
+
+}
+
+.propiedades {
+    background-color: #E5E7E9;
+}
+
+.card {
+    box-shadow: 2px 2px 10px #666;
+    border-radius: 10px;
+}
+
+.card .card-precio span {
+    font-size: 1.1rem;
+    color: white;
+    margin-left: 20px;
+}
+
+.card .btn-outline-primary {
+    color: rgb(18, 107, 70);
+    border-color: white;
+    border-color: rgb(18, 107, 70);
+}
+
+.card .btn-outline-primary:hover {
+    background-color: rgb(18, 107, 70);
+    border-color: rgb(18, 107, 70);
+    color: white;
+
+
+}
+
+.calltoaction2 {
+    background-image: url(/img/contacto.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.calltoaction2 .row {
+    height: 20rem;
+}
+
+.calltoaction2 h3 {
+
+    font-size: 2.2rem;
+    font-weight: 900;
+}
+
+/*testimonios*/
+
+
+
+.testimonios .row-testimonios {
+    background-color: rgb(18, 107, 70);
+    color: white;
+}
+
+.testimonios .testimonios-texto {
+    font-size: 1.4rem;
+    line-height: 2.6rem;
+    font-weight: 400;
+    left: 10px;
+}
+
+.testimonios .testimonios-persona {
+    font-size: 1.6rem;
+    font-weight: 700;
+}
+
+/*contacto*/
+.contacto .contacto-texto {
+    background-color: rgb(18, 107, 70);
+
+}
+
+
+/*footer*/
+
+.footer {
+    background-color: #263238;
+    color: white;
+
+}
+
+.footer a {
+    color: white;
+
+}
+
+.footer a:hover {
+    text-decoration: none;
+
+}
